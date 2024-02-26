@@ -1,6 +1,3 @@
-COMPUTER VISION 
-IMAGE CONVOLUTION
-by Reah Mae Sardañas
 
 This program replicates the process shown in the video https://fb.watch/pWLNqOIQPE/
 Specifically, it performs the following:
