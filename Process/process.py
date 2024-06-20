@@ -54,9 +54,9 @@ def main():
     first_merge = np.concatenate((horiz_left_image,  horiz_right_image), axis=1)
     
     # Save the images
-    cv2.imwrite('lab1-out/horiz_left_image.jpg',  horiz_left_image)
-    cv2.imwrite('lab1-out/horiz_right_image.png',  horiz_right_image)
-    cv2.imwrite('lab1-out/first_merged_image.jpg', first_merge)
+    cv2.imwrite('out/horiz_left_image.jpg',  horiz_left_image)
+    cv2.imwrite('out/horiz_right_image.png',  horiz_right_image)
+    cv2.imwrite('out/first_merged_image.jpg', first_merge)
 
 
 
@@ -66,10 +66,10 @@ def main():
     final_merge = np.concatenate((ver_left_image, ver_right_image), axis=0)
     
     
-    cv2.imwrite('lab1-out/vertical_left_image.jpg', ver_left_image)
-    cv2.imwrite('lab1-out/vertical_right_image.jpg', ver_right_image)
+    cv2.imwrite('out/vertical_left_image.jpg', ver_left_image)
+    cv2.imwrite('out/vertical_right_image.jpg', ver_right_image)
    
-    cv2.imwrite('lab1-out/final.jpg', final_merge)   
+    cv2.imwrite('out/final.jpg', final_merge)   
     cv2.imshow("final_merge", final_merge)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
