@@ -55,7 +55,7 @@ def main():
     
     # Save the images
     cv2.imwrite('out/horiz_left_image.jpg',  horiz_left_image)
-    cv2.imwrite('out/horiz_right_image.png',  horiz_right_image)
+    cv2.imwrite('out/horiz_right_image.jpg',  horiz_right_image)
     cv2.imwrite('out/first_merged_image.jpg', first_merge)
 
 
